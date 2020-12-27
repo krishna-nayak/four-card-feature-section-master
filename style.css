@@ -28,8 +28,9 @@ body {
 /* HEADER */
 
 .header-text {
-	width: 33%;
-	margin: 3% auto;
+	max-width: 33%;
+	min-width: 380px;
+	margin: 2% auto;
 	text-align: center;
 }
 
@@ -40,6 +41,7 @@ body {
 
 .head-second {
 	color: var(--v-dark-blue);
+	margin-bottom: 2%;
 }
 
 /* MAIN */
