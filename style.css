@@ -57,11 +57,19 @@ body {
 
 .box {
 	margin: 3%;
-	padding: 10%;
+	padding: 8%;
 	background-color: #fff;
 	box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.1);
 	border-top: 3px solid black;
 	border-radius: 10px;
+}
+
+.title {
+	color: var(--v-dark-blue);
+}
+.icon {
+	float: right;
+	margin-top: 18%;
 }
 
 .team-builder {
