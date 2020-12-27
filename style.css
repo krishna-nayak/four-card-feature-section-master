@@ -103,6 +103,7 @@ body {
 
 @media screen and (max-width: 850px) {
 	.grid-container {
+		height: 625px;
 		grid-template-rows: none;
 		grid-auto-rows: auto;
 	}
@@ -121,5 +122,28 @@ body {
 	.calculator {
 		grid-row: 2;
 		grid-column: span 6;
+	}
+}
+
+/* need to fixed bug */
+@media screen and (max-width: 550px) {
+	/* .grid-container {
+
+	} */
+	.supervisor {
+		grid-row: 1;
+		grid-column: 1 / span 12;
+	}
+	.team-builder {
+		grid-row: 2;
+		grid-column: span 12;
+	}
+	.karma {
+		grid-row: 3;
+		grid-column: span 12;
+	}
+	.calculator {
+		grid-row: 4;
+		grid-column: span 12;
 	}
 }
