@@ -59,25 +59,31 @@ body {
 	margin: 3%;
 	padding: 10%;
 	background-color: #fff;
-	box-shadow: 0 0 5px 1px;
+	box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.1);
+	border-top: 3px solid black;
+	border-radius: 10px;
 }
 
 .team-builder {
 	grid-column: 5 / span 4;
 	grid-row: span 2;
+	border-color: var(--red);
 }
 
 .supervisor {
 	grid-column: span 4;
 	grid-row: 2 / span 2;
+	border-color: var(--cyan);
 }
 
 .calculator {
 	grid-column: 9 / span 4;
 	grid-row: 2 / span 2;
+	border-color: var(--blue);
 }
 
 .karma {
 	grid-column: 5 / span 4;
 	grid-row: 3 / span 2;
+	border-color: var(--orange);
 }
