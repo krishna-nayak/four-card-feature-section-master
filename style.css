@@ -28,9 +28,9 @@ body {
 /* HEADER */
 
 .header-text {
-	max-width: 33%;
-	min-width: 380px;
-	margin: 2% auto;
+	width: 33%;
+	min-width: 370px;
+	margin: 4% auto;
 	text-align: center;
 }
 
@@ -47,8 +47,8 @@ body {
 /* MAIN */
 
 .grid-container {
-	width: 70%;
-	min-height: 70vh;
+	width: 75%;
+	min-height: 570px;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
@@ -101,11 +101,15 @@ body {
 
 /* @MEDIA */
 
+/* Table Responsive */
 @media screen and (max-width: 850px) {
+	.header-text {
+		width: 60%;
+		min-width: 0;
+	}
 	.grid-container {
-		height: 625px;
-		grid-template-rows: none;
-		grid-auto-rows: auto;
+		width: 80%;
+		grid-template-rows: repeat(2, 1fr);
 	}
 	.supervisor {
 		grid-row: 1;
@@ -125,11 +129,23 @@ body {
 	}
 }
 
-/* need to fixed bug */
+/* Moblie responsive */
 @media screen and (max-width: 550px) {
-	/* .grid-container {
-
-	} */
+	.header-text {
+		width: 85%;
+		/* font-size: 18px; */
+	}
+	.head-first {
+		font-size: 25px;
+	}
+	.head-second {
+		font-size: 25px;
+	}
+	.grid-container {
+		width: 85%;
+		height: 150vh;
+		grid-template-rows: repeat(4, 1fr);
+	}
 	.supervisor {
 		grid-row: 1;
 		grid-column: 1 / span 12;
