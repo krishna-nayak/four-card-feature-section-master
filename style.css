@@ -133,7 +133,9 @@ body {
 @media screen and (max-width: 550px) {
 	.header-text {
 		width: 85%;
-		/* font-size: 18px; */
+	}
+	.text {
+		margin: 5% 0;
 	}
 	.head-first {
 		font-size: 25px;
@@ -142,6 +144,7 @@ body {
 		font-size: 25px;
 	}
 	.grid-container {
+		margin-top: 15%;
 		width: 85%;
 		height: 150vh;
 		grid-template-rows: repeat(4, 1fr);
