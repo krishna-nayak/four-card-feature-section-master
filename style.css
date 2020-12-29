@@ -48,6 +48,7 @@ body {
 
 .grid-container {
 	width: 75%;
+	max-width: 75rem;
 	min-height: 570px;
 	margin: 0 auto;
 	display: grid;
